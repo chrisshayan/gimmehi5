@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/decorators">
+    <excludes>
+        <pattern>/home/</pattern>
+    </excludes>
+    <decorator name="basic-theme" page="/WEB-INF/decorators/basic-theme.jsp">
+        <pattern>/*</pattern>
+    </decorator>
+</decorators>
